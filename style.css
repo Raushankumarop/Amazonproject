@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.nav-address{
+    padding: 5px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    height: 30px;
+}
+.nav-search-input{
+    width: 100%;
+    border: none;
+    padding-left: 5px;
+    font-size: 1em;
+    outline: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search-icon{
+    width: 34px;
+    text-align: center;
+    font-size: larger;
+    background-color: goldenrod;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    line-height: 30px;
+}
+#awl{
+    width: 40px;
+    text-align: center;
+    color: white;
+    background-color: goldenrod;
+}
+.nav-login p{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.paj{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-sigup p{
+    
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+.offer{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 7px;
+}
+.st-offer{
+    font-size: 1em;
+}
+.nd-offer{
+    font-size: 0.7em;
+}
+.hero{
+    position: relative;
+    top: 70px;
+    width: 100vw;
+    height: 500px;
+    background: url(hero_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.hero p{
+    align-self: flex-end;
+    margin-bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    ;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 10px 10px black;
+}
+.item{
+    width: 100vw;
+    height: 230px;
+    display: flex;
+    position: relative;
+    top: 100px;
+
+    justify-content: space-evenly;
+}
+.item2{
+    width: 100vw;
+    height: 230px;
+    display: flex;
+    position: relative;
+    top: 150px;
+
+    justify-content: space-evenly;
+}
+.st-item , .nd-item , .rd-item{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0f1111;
+    box-shadow: 10px 10px black;
+
+    color: white;
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    text-align: center;
+}
+.st-item-logo{
+    width: 100%;
+    height: 100%;
+    background: url(box7_image.jpg);
+    background-size: contain;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+.nd-item-logo{
+    width: 100%;
+    height: 100%;
+    background: url(box8_image.jpg);
+    background-size: contain;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+.rd-item-logo{
+    width: 100%;
+    height: 100%;
+    background: url(box5_image.jpg);
+    background-size: contain;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.our-head{
+    width: 70%;
+    height: 500px;
+    border: 2px solid black;
+    background-color: #0f1111;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+.our-head-logo{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(ffr.jpg);
+    background-size: contain;
+    border: 6px solid white;
+}
+
+.our-head-about{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+
+}
+.our-services{
+    padding: 15px;
+    position: relative;
+    top: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0f1111;
+
+}
+.oun{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.first{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #0f1111;
+    line-height: 200px;
+    color: white;
+    border: 10px solid goldenrod;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #0f1111;
+    color: white;
+    position: relative ;
+    top: 270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 400px;
+}
+.last{
+    position: relative;
+    top: 250px;
+    background-color: #0f1111;
+}
+@media (max-width: 1200px){
+
+    .hero{
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        top: 10px;
+    }
+    .hero p{
+        display: none;
+    }
+    .item{
+        height: 1100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1100px;
+        justify-content: space-between;
+    }
+    .st-item , .nd-item , .rd-item{
+        width: 70%;
+        height: 300px;
+    }   
+    .our-head{
+        width: 100%;
+        height: 830px;
+        padding: 20px;
+    }
+    .oun{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first{
+        margin-top: 20px;
+    }
+    .ko{
+        display: none;
+    }
+
+    .offer{
+        display: none;
+    }
+    .nav-address{
+        display: none;
+    }
+    .navbar{
+        height: 150px;
+        flex-direction: column;
+        position:sticky;
+        top: 0;
+    }
+    .nav-logo{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .item{
+        top: 20px;
+    }
+    .item2{
+        top: 40px;
+    }
+    .our-head{
+        top: 60px;
+    }
+    .our-services{
+        top: 80px;
+    }
+    footer{
+        top:100px;
+    }
+    .last{
+        top: 100px;
+    }
+}
